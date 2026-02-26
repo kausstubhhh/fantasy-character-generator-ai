@@ -37,3 +37,14 @@ The application uses a Gemini API key stored as an environment variable.
 ## ⚙️ Run Locally
 
 1. Clone the repository:
+
+2. Install dependencies:
+
+3. Create a `.env` file based on `.env.example`
+
+4. Start development server:
+
+## 📌 Note
+
+This is a prototype project created for experimentation and learning.  
+AI outputs may vary per execution.
