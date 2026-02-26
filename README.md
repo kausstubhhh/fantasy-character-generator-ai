@@ -1,46 +1,39 @@
-# 🧙 Fantasy Character Generator (AI-Powered)
+# Fantasy Character Generator (AI-Powered Prototype)
 
-An AI-powered fantasy character creation prototype built using **Google AI Studio (Gemini models)** and React + TypeScript.
+An AI-powered fantasy character generator built using:
 
-This project was developed as part of the **Google Cloud Skills Boost Challenge Lab: Develop AI-Powered Prototypes in Google AI Studio**.
+- React
+- TypeScript
+- Vite
+- Google Gemini (via Google AI Studio)
+
+This project was originally developed as part of the Google Cloud Skills Boost Challenge Lab:  
+**Develop AI-Powered Prototypes in Google AI Studio**
 
 ---
 
 ## 🚀 Features
 
-- 🎲 Generate random fantasy characters (Name + Class)
-- 🖼 Generate and regenerate AI-powered character portraits
-- 📜 Generate unique backstories
-- 📊 Randomized player stats (Health, Mana, Strength)
-- 🃏 Player card UI design
-- 💾 Save characters to a personal deck
-- 🎨 Fantasy-themed UI inspired by an alchemist's workbench
+- Generate random fantasy characters (Name + Class)
+- AI-generated character portraits
+- AI-generated backstories
+- Randomized player stats (Health, Mana, Strength)
+- Save characters to a personal deck
+- Themed fantasy UI
 
 ---
 
-## 🧠 AI Capabilities Used
+## 🧠 AI Integration
 
-- Gemini text generation for:
-  - Character names
-  - Classes
-  - Backstories
-- Gemini image generation for:
-  - Cartoon/video-game style portraits
-- In-context code generation and UI refinement via Google AI Studio
+This project integrates the Gemini model for:
 
----
+- Text generation (names, classes, backstories)
+- Image generation (character portraits)
 
-## 🛠 Tech Stack
-
-- React
-- TypeScript
-- Vite
-- Google AI Studio (Gemini models)
+The application uses a Gemini API key stored as an environment variable.
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Run Locally
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/fantasy-character-generator-ai.git
