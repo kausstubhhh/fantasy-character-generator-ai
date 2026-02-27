@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-stone-900 text-stone-200 font-sans;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-wood.png');
+  }
+}
+
+.font-fantasy {
+  font-family: 'Cinzel', serif;
+}
+
+.btn-primary {
+  @apply bg-amber-600 hover:bg-amber-500 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:shadow-amber-500/20 disabled:bg-stone-700 disabled:cursor-not-allowed disabled:shadow-none w-full border border-amber-700 hover:border-amber-400;
+}
+
+.btn-secondary {
+  @apply bg-purple-800 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:shadow-purple-700/20 disabled:bg-stone-700 disabled:cursor-not-allowed disabled:shadow-none w-full border border-purple-900 hover:border-purple-600;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
